@@ -30,8 +30,8 @@ const int V_BUSCAR        = 180; // velocidad durante la busqueda de la linea
 
 // Modo de giro posible: descomenta uno de los siguientes (solo 1)
 //#define TURN_MODE_SOFT    // Giro suave: motor interior más lento, exterior más rápido
-//#define TURN_MODE_STOP    // Giro deteniendo el motor interior (0) y motor exterior avanza
-#define TURN_MODE_REVERSE  // Giro agresivo: motor interior invierte, exterior avanza (giro en sitio)
+#define TURN_MODE_STOP    // Giro deteniendo el motor interior (0) y motor exterior avanza
+//#define TURN_MODE_REVERSE  // Giro agresivo: motor interior invierte, exterior avanza (giro en sitio)
 
 // Comportamiento cuando ninguno detecta la linea:
 // - gira hacia la ultima direccion donde vio la linea (lastSeen)
