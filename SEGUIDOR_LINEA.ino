@@ -5,12 +5,12 @@
 */
 
 // *** DECLARAMOS LAS VARIABLES QUE VAMOS A UTILIZAR   ***
-static int PinIN1 = 2;
-static int PinIN2 = 3;
-static int PinIN3 = 4;
-static int PinIN4 = 5;
-static int Pin_sensor1 = 8;   // Con este pin recogemos las señales del sensor
-static int Pin_sensor2 = 9;   // Con este pin recogemos las señales del sensor
+static int PinIN1 = 13;
+static int PinIN2 = 12;
+static int PinIN3 = 10;
+static int PinIN4 = 8;
+static int Pin_sensor1 = A0;   // Con este pin recogemos las señales del sensor
+static int Pin_sensor2 = A1;   // Con este pin recogemos las señales del sensor
 
 void setup() {
   Serial.begin(9600);               //iniciamos las comunicaciones con el puerto serie para el monitor serie
@@ -88,3 +88,4 @@ void loop() {
   digitalWrite (PinIN4, LOW);
   
   }
+
